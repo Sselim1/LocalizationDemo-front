@@ -2,13 +2,9 @@
   "Mock Data Table": "Mock Data Table",
   "Mock Data Table from ts": "Mock Data Table from ts",
 
-  "table": {
-    "headers": {
-      "id": "ID",
-      "name": "Name",
-      "email": "Email",
-      "age": "Age",
-      "country": "Country"
-    }
-  }
+  "id":"id",
+  "name":"name",
+  "email":"email",
+  "age":"age",
+  "country":"country"
 }

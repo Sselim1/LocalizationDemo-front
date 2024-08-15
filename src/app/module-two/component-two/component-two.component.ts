@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { DataService } from '../../service';
+import { Person } from '../../person';
 
 @Component({
   selector: 'app-component-two',
@@ -9,11 +11,13 @@ import { TranslateService } from '@ngx-translate/core';
 
 export class ComponentTwoComponent implements OnInit {
   title: string = 'Mock Data Table From ts';
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService,private dataService: DataService) {
     translate.use('en');
     
   }
+  data:Person[]=[];
   ngOnInit() {
+    this.data=this.dataService.loadData();
   }
   switchLanguage(language: string) {
     this.translate.use(language);

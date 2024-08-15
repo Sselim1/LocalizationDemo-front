@@ -1,12 +1,8 @@
 {
   "title": "Mock Data Table",
-  "table": {
-    "headers": {
-      "id": "ID",
-      "name": "Name",
-      "email": "Email",
-      "age": "Age",
-      "country": "Country"
-    }
-  }
+  "id":"ID",
+  "name":"name",
+  "email":"email",
+  "age":"age",
+  "country":"country"
 }
