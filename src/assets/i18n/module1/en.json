@@ -1,0 +1,12 @@
+{
+  "title": "Mock Data Table",
+  "table": {
+    "headers": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "age": "Age",
+      "country": "Country"
+    }
+  }
+}

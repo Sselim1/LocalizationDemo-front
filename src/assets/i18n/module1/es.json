@@ -1,0 +1,12 @@
+{
+"title": "Tabla de Datos Simulados",
+  "table": {
+    "headers": {
+      "id": "ID",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "age": "Edad",
+      "country": "País"
+      }
+    }
+  }
